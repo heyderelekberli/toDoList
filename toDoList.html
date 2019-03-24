@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/toDoList.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-6 col-offset-3 toDo ">
+                <div class="myList">
+                    <ul class="list-group">
+                        <li onclick="decoration(this)" class="list-group-item myLiElements">Example1 <i onclick="deleteIcon()" class="fas fa-trash-alt myIcon"></i></li>
+                        <li onclick="decoration(this)"class="list-group-item myLiElements">Example2 <i onclick="deleteIcon()" class="fas fa-trash-alt myIcon"></i></li>
+                        <li onclick="decoration(this)"class="list-group-item myLiElements">Example3 <i onclick="deleteIcon()" class="fas fa-trash-alt myIcon"></i></li>
+                        <li onclick="decoration(this)"class="list-group-item myLiElements">Example4 <i onclick="deleteIcon()" class="fas fa-trash-alt myIcon"></i></li>
+                        <li onclick="decoration(this)"class="list-group-item myLiElements">Example5 <i onclick="deleteIcon()" class="fas fa-trash-alt myIcon"></i></li>
+                    </ul>
+                </div>
+                <button type="button" onclick="addList()" class="btn btn-danger btn-lg myButton">New Task</button>
+                <input class=" myInput" type="text" placeholder="Add new text">
+            </div>
+        </div>
+    </div>
+ 
+
+
+    <script src="js/toDoList.js"></script>
+</body>
+
+</html>

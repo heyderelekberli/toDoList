@@ -1,0 +1,35 @@
+
+.toDo{
+    padding:0px;
+    margin:auto;
+    width:200px;
+    height:500px;
+    border:1px solid red;
+    display:flex;
+    flex-direction: column;
+}
+.myList{
+    width:100%;
+    height:300px;
+}
+.myButton{
+    width:150px;
+    height:50px;
+    border-radius: 20px;
+    transform:translate(190px,-70px)
+}
+.myInput{
+    border:1px solid green;
+        border-radius:0px;
+    height:50px;
+}
+.myInput:focus{
+   outline: none !important;
+} 
+.myIcon{
+    float:right;
+    opacity:0;
+}
+.myLiElements:hover .myIcon{
+opacity:1;
+}
